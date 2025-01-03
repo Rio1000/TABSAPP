@@ -9,11 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var button: UIButton!
-    
+    @IBOutlet weak var ADD: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        ADD.layer.borderWidth = 2
+        ADD.layer.borderColor = UIColor.black.cgColor
+        ADD.layer.cornerRadius = 10 // Optional
     }
 
 
